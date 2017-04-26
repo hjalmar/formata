@@ -24,6 +24,10 @@
     } else loopArray(args);
     return s;
   };
-  String.prototype.format = format;
+
+  if(!String.prototype.format){
+    String.prototype.format = format;
+  }
+
   context.exports = format;
 })(module);
