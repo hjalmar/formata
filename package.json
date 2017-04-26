@@ -1,0 +1,16 @@
+{
+  "name": "formata",
+  "version": "1.0.0",
+  "description": "Format javascript strings.",
+  "main": "formata.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "formata",
+    "format",
+    "string"
+  ],
+  "author": "Jens Hjalmarsson",
+  "license": "ISC"
+}
