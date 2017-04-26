@@ -9,7 +9,7 @@
     @arguments (mixed) replacement arguments
     @return (string) modified string
   */
-  var formata = function(){
+  var format = function(){
     var s = '', type = typeof this, args = Array.prototype.slice.call(arguments);
     if(type == 'string') s = this.toString();
     else if(args.length > 0) s = args.shift();
@@ -24,6 +24,6 @@
     } else loopArray(args);
     return s;
   };
-  String.prototype.formata = formata;
-  context.exports = formata;
+  String.prototype.format = format;
+  context.exports = format;
 })(module);

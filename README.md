@@ -4,6 +4,7 @@ Jens Hjalmarsson
 
 ## index or keyword arguments, but not combined.
 ```javascript
+var format = require('formata');
 var indexes = 'The quick {1} {2} jumps over the lazy {3}.';
 var keywords = 'The quick {color} {animal} jumps over the lazy {lazyanimal}.';
 ```
@@ -51,7 +52,7 @@ keywords.format({color: 'blue', animal: 'rabbit'});
 
 #### Invalid arguments
 ```javascript
-indexes.formata('colored', {}, ['values', 'inside', 'array']);
+indexes.format('colored', {}, ['values', 'inside', 'array']);
 
 // output:
 // The quick colored [object Object] jumps over the lazy values,inside,array.
