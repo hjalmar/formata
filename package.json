@@ -1,6 +1,6 @@
 {
   "name": "formata",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Format javascript strings.",
   "main": "formata.js",
   "scripts": {
