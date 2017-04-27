@@ -1,6 +1,6 @@
 # npm formata package
 
-Jens Hjalmarsson
+Formata is a small javascript string formatter.
 
 ## index or keyword arguments, but not combined.
 ```javascript

@@ -12,5 +12,9 @@
     "string"
   ],
   "author": "Jens Hjalmarsson",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/hjalmar/formata.git"
+  },
   "license": "ISC"
 }
