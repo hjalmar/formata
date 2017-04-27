@@ -4,6 +4,10 @@ var indexes = 'The quick {1} {2} jumps over the lazy {3}.';
 var keywords = 'The quick {color} {animal} jumps over the lazy {lazyanimal}.';
 
 var tests = [
+  indexes.format(1),
+  format(indexes, 1),
+  indexes.format('1'),
+  format(indexes, '1'),
   indexes.format(1, 'dog', 'fox'),
   format(indexes, 1, 'dog', 'fox'),
   indexes.format([1, 'fox', 'cat']),
